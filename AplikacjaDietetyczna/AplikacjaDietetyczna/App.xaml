@@ -4,6 +4,11 @@
              xmlns:local="clr-namespace:AplikacjaDietetyczna"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!-- Motyw przycisku w Modern UI -->
+                <ResourceDictionary Source="ButtonModern.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>
