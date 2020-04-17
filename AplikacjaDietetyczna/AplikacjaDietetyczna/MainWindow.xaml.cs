@@ -29,7 +29,6 @@ namespace AplikacjaDietetyczna
         {
             if (e.LeftButton == MouseButtonState.Pressed)
                 DragMove();
-            
         }
     }
 }
