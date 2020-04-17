@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AplikacjaDietetyczna"
+        xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="380"
         AllowsTransparency="True" Background="Transparent"
@@ -22,22 +23,24 @@
                         <GradientStop Color="#7be9f6" Offset="0.0"/>
                         <GradientStop Color="#1225ff" Offset="1.5"/>
                     </LinearGradientBrush>
-                    
+
                 </Border.Background>
             </Border>
 
 
             <StackPanel VerticalAlignment="Center">
-
+                <iconPacks:PackIconMaterial Kind="Food"
+                                 VerticalAlignment="Center"
+                                 HorizontalAlignment="Center"
+                                 Foreground="White" Height="55" Margin="150,0,142,10" Width="56"
+                                 />
                 <TextBlock Text="Aplikacja Dietetyczna" FontWeight="Light"
                            FontFamily="helvetica" FontSize="22" Foreground="White"
-                           HorizontalAlignment="Center"
-                
-                
-                />
+                           HorizontalAlignment="Center"/>
+
             </StackPanel>
 
-            
+
 
             <StackPanel Grid.Row="1">
                 <StackPanel Orientation="Horizontal">
@@ -54,13 +57,22 @@
                          Opacity="0.5"
                          Text="Nazwa użytkownika"
                          Height="25"
-                         Margin="63,0,0,0"
-                         
-                     />
+                         Margin="63,0,0,0"/>
+
+                    <iconPacks:PackIconMaterial Kind="Account"
+                                 VerticalAlignment="Center"
+                                 HorizontalAlignment="Center"
+                                 Foreground="White"/>
 
                 </StackPanel>
 
-                <StackPanel Orientation="Horizontal">
+                <Border Width="250"
+                        Height="2"
+                        Background="White"
+                        Opacity="0.6"/>
+
+
+                <StackPanel Orientation="Horizontal" Margin="0,20,0,0">
 
                     <PasswordBox FontFamily="Helvetica"
                          FontSize="20"
@@ -76,8 +88,17 @@
                          Height="25"
                          Margin="63,0,0,0"
                      />
+                    <iconPacks:PackIconMaterial Kind="Lock"
+                                 VerticalAlignment="Center"
+                                 HorizontalAlignment="Center"
+                                 Foreground="White"/>
 
                 </StackPanel>
+
+                <Border Width="250"
+                        Height="2"
+                        Background="White"
+                        Opacity="0.6"/>
 
             </StackPanel>
 
