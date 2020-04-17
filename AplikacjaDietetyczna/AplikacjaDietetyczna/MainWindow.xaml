@@ -32,8 +32,8 @@
                 <iconPacks:PackIconMaterial Kind="Food"
                                  VerticalAlignment="Center"
                                  HorizontalAlignment="Center"
-                                 Foreground="White" Height="55" Margin="150,0,142,10" Width="56"
-                                 />
+                                 Foreground="White" Height="80"
+                                 Width="80"/>
                 <TextBlock Text="Aplikacja Dietetyczna" FontWeight="Light"
                            FontFamily="helvetica" FontSize="22" Foreground="White"
                            HorizontalAlignment="Center"/>
